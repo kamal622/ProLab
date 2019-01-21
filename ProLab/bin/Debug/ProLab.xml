@@ -1,0 +1,186 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProLab
+</name>
+</assembly>
+<members>
+<member name="T:ProLab.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.Button_Bkg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.F2_Button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.lab_icon_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.laboratory_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.LeftGradiant">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProLab.My.Resources.Resources.MainMenu_Bkg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:ProLab.PatientBillDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProLab.PatientBillDataSet.PatientBillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.PatientBillDataSet.PatientBillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.PatientBillDataSet.PatientBillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.ReportListByGroupDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProLab.ReportListByGroupDataSet.ReportListByGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.ReportListByGroupDataSet.ReportListByGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.ReportListByGroupDataSet.ReportListByGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.TestReportListDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProLab.TestReportListDataSet.TestReportListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.TestReportListDataSet.TestReportListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.TestReportListDataSet.TestReportListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSet.ServiceTransactionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSet.ServiceTransactionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSet.ServiceTransactionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSetTableAdapters.ServiceTransactionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ProLab.ProLabDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProLab.ProLabDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ProLab.ProLabDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ProLab.ProLabDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ProLab.ProLabDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ProLab.ProLabDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ProLab.ProLabDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ProLab.ProLabDataSetTableAdapters.TableAdapterManager.UpdateAll(ProLab.ProLabDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ProLab.ProLabDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

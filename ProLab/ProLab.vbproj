@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F0278BB-C2FD-4309-B2D4-BEBE85C90240}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProLab.My.MyApplication</StartupObject>
+    <RootNamespace>ProLab</RootNamespace>
+    <AssemblyName>ProLab</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\ProLabPublish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ProLab.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProLab.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>lab_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.Designer.vb">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BillChequeForm.Designer.vb">
+      <DependentUpon>BillChequeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BillChequeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CityForm.Designer.vb">
+      <DependentUpon>CityForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CityForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CountryForm.Designer.vb">
+      <DependentUpon>CountryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CountryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DoctorForm.Designer.vb">
+      <DependentUpon>DoctorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DoctorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HospitalForm.Designer.vb">
+      <DependentUpon>HospitalForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HospitalForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientBillForm.Designer.vb">
+      <DependentUpon>PatientBillForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientBillForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientBillReceipt.Designer.vb">
+      <DependentUpon>PatientBillReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientBillReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientBillReportForm.Designer.vb">
+      <DependentUpon>PatientBillReportForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientBillReportForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientBillUtilityForm.Designer.vb">
+      <DependentUpon>PatientBillUtilityForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientBillUtilityForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientForm.Designer.vb">
+      <DependentUpon>PatientForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientServiceListForm.Designer.vb">
+      <DependentUpon>PatientServiceListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientServiceListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientTransactionsForm.Designer.vb">
+      <DependentUpon>PatientTransactionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientTransactionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientTransactionUtilityForm.Designer.vb">
+      <DependentUpon>PatientTransactionUtilityForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientTransactionUtilityForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReportStatusForm.Designer.vb">
+      <DependentUpon>ReportStatusForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportStatusForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchForm.Designer.vb">
+      <DependentUpon>SearchForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SearchForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceCategoryForm.Designer.vb">
+      <DependentUpon>ServiceCategoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ServiceCategoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceMasterForm.Designer.vb">
+      <DependentUpon>ServiceMasterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ServiceMasterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StateForm.Designer.vb">
+      <DependentUpon>StateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TestReportListByGroup.Designer.vb">
+      <DependentUpon>TestReportListByGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TestReportListByGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\PatientBillDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatientBillDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PatientBillDataSet.vb">
+      <DependentUpon>PatientBillDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReportListByGroupDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportListByGroupDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReportListByGroupDataSet.vb">
+      <DependentUpon>ReportListByGroupDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TestReportListDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestReportListDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TestReportListDataSet.vb">
+      <DependentUpon>TestReportListDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CommonModule.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PLMDIForm.Designer.vb">
+      <DependentUpon>PLMDIForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PLMDIForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProLabDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProLabDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BillChequeForm.resx">
+      <DependentUpon>BillChequeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CityForm.resx">
+      <DependentUpon>CityForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CountryForm.resx">
+      <DependentUpon>CountryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DoctorForm.resx">
+      <DependentUpon>DoctorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HospitalForm.resx">
+      <DependentUpon>HospitalForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientBillForm.resx">
+      <DependentUpon>PatientBillForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientBillReceipt.resx">
+      <DependentUpon>PatientBillReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientBillReportForm.resx">
+      <DependentUpon>PatientBillReportForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientBillUtilityForm.resx">
+      <DependentUpon>PatientBillUtilityForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientForm.resx">
+      <DependentUpon>PatientForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientServiceListForm.resx">
+      <DependentUpon>PatientServiceListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientTransactionsForm.resx">
+      <DependentUpon>PatientTransactionsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientTransactionUtilityForm.resx">
+      <DependentUpon>PatientTransactionUtilityForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportStatusForm.resx">
+      <DependentUpon>ReportStatusForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchForm.resx">
+      <DependentUpon>SearchForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceCategoryForm.resx">
+      <DependentUpon>ServiceCategoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceMasterForm.resx">
+      <DependentUpon>ServiceMasterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StateForm.resx">
+      <DependentUpon>StateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TestReportListByGroup.resx">
+      <DependentUpon>TestReportListByGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLMDIForm.resx">
+      <DependentUpon>PLMDIForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PatientBill.rdlc" />
+    <EmbeddedResource Include="Reports\PatientServiceList.rdlc" />
+    <EmbeddedResource Include="Reports\ReportListByGroup.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\PatientBillDataSet.xsc">
+      <DependentUpon>PatientBillDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Models\PatientBillDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PatientBillDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Models\PatientBillDataSet.xss">
+      <DependentUpon>PatientBillDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Models\ReportListByGroupDataSet.xsc">
+      <DependentUpon>ReportListByGroupDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Models\ReportListByGroupDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportListByGroupDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Models\ReportListByGroupDataSet.xss">
+      <DependentUpon>ReportListByGroupDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Models\TestReportListDataSet.xsc">
+      <DependentUpon>TestReportListDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Models\TestReportListDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TestReportListDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Models\TestReportListDataSet.xss">
+      <DependentUpon>TestReportListDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\PatientTransction.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProLabDataSet.xsc">
+      <DependentUpon>ProLabDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProLabDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProLabDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProLabDataSet.xss">
+      <DependentUpon>ProLabDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\MainMenu_Bkg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lab_icon.ico" />
+    <Content Include="Resources\Button_Bkg.gif" />
+    <Content Include="Resources\LeftGradiant.gif" />
+    <None Include="Resources\add.ico" />
+    <None Include="Resources\F2_Button.gif" />
+    <None Include="Resources\laboratory-icon.png" />
+    <None Include="Resources\lab-icon_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProLab.Core\ProLab.Core.vbproj">
+      <Project>{149e6741-de46-4c74-af5c-cc9c1758380d}</Project>
+      <Name>ProLab.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProLab.Data\ProLab.Data.vbproj">
+      <Project>{91d5af7c-d2a9-4a1a-b0b3-9d30bdc982c9}</Project>
+      <Name>ProLab.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProLab.Service\ProLab.Service.vbproj">
+      <Project>{6eae93a5-d57c-4d16-83a6-1c0fc6fc0119}</Project>
+      <Name>ProLab.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

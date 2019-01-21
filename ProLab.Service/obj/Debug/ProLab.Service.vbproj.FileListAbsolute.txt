@@ -1,0 +1,15 @@
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Service.dll
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Service.pdb
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Service.xml
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Core.dll
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Data.dll
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Core.pdb
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Core.xml
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Data.pdb
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\bin\Debug\ProLab.Data.xml
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\obj\Debug\ProLab.Service.vbprojResolveAssemblyReference.cache
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\obj\Debug\ProLab.Service.Resources.resources
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\obj\Debug\ProLab.Service.vbproj.GenerateResource.Cache
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\obj\Debug\ProLab.Service.dll
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\obj\Debug\ProLab.Service.xml
+D:\Users\Kamal\ProSVN\ProLab\ProLab.Service\obj\Debug\ProLab.Service.pdb

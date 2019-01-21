@@ -1,0 +1,881 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProLab.Data
+</name>
+</assembly>
+<members>
+<member name="T:ProLab.Data.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ProLab.Data.My.Resources.Common">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.CheckCityName">
+<summary>
+  Looks up a localized string similar to SELECT CityName FROM City WHERE CityName=@CityName AND Id!=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.CheckCountryName">
+<summary>
+  Looks up a localized string similar to SELECT CountryName FROM Country WHERE CountryName=@CountryName AND Id!=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.CheckStateName">
+<summary>
+  Looks up a localized string similar to SELECT StateName FROM State WHERE StateName=@StateName AND Id!=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.DeleteCity">
+<summary>
+  Looks up a localized string similar to DELETE FROM City WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.DeleteCountry">
+<summary>
+  Looks up a localized string similar to DELETE FROM Country WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.DeleteState">
+<summary>
+  Looks up a localized string similar to DELETE FROM State WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetAllCity">
+<summary>
+  Looks up a localized string similar to SELECT Id,CityName FROM City.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GETALLCOUNTRY">
+<summary>
+  Looks up a localized string similar to SELECT * FROM  Country ORDER BY CountryName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetCityById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM City WHERE Id=@Id .
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetCityByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM City WHERE CityName=@CityName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetCityByStateId">
+<summary>
+  Looks up a localized string similar to SELECT * FROM City WHERE CountryId=@CountryId AND StateId=@StateId  ORDER BY CityName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetCountryById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM  Country WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetCountryByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Country WHERE CountryName=@CountryName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetDefaultCity">
+<summary>
+  Looks up a localized string similar to select a.Id from City a,Settings b where a.CityName=b.Value.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetDefaultCountry">
+<summary>
+  Looks up a localized string similar to select a.Id from Country a,Settings b where a.CountryName=b.Value.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetDefaultState">
+<summary>
+  Looks up a localized string similar to select a.Id from State a,Settings b where a.StateName=b.Value.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetStateByCountryId">
+<summary>
+  Looks up a localized string similar to SELECT * FROM State WHERE CountryId=@CountryId ORDER BY StateName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetStateById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM State WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetStateByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM State WHERE StateName=@StateName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.GetUserByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Users WHERE UserName = @UserName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.SaveCity">
+<summary>
+  Looks up a localized string similar to INSERT INTO City(CountryId,StateId,CityName,IsActive,CreateDate,CreateBy) VALUES(@CountryId,@StateId,@CityName,@IsActive,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.SaveCountry">
+<summary>
+  Looks up a localized string similar to INSERT INTO Country(CountryName,IsActive,CreateDate,CreateBy) VALUES(@CountryName,@IsActive,@CreateDate,@CreateBy) .
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.SaveState">
+<summary>
+  Looks up a localized string similar to INSERT INTO State(CountryId,StateName,IsActive,CreateDate,CreateBy) VALUES(@CountryId,@StateName,@IsActive,@CreateDate,@CreateBy) .
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.UpdateCity">
+<summary>
+  Looks up a localized string similar to UPDATE City SET CountryId=@CountryId,StateId=@StateId,CityName=@CityName,IsActive=@IsActive, UpdateDate=@UpdateDate, UpdateBy=@UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.UpdateCountry">
+<summary>
+  Looks up a localized string similar to UPDATE Country SET CountryName=@CountryName,IsActive=@IsActive , UpdateDate=@UpdateDate, UpdateBy=@UpdateBy Where Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Common.UpdateState">
+<summary>
+  Looks up a localized string similar to UPDATE State SET CountryId=@CountryId,StateName=@StateName,IsActive=@IsActive , UpdateDate=@UpdateDate, UpdateBy=@UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="T:ProLab.Data.My.Resources.Menu">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Menu.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Menu.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Menu.GetAllMenuChild">
+<summary>
+  Looks up a localized string similar to SELECT * FROM MenuMaster WHERE IsActive=@IsActive ORDER BY SerialNo .
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Menu.GetAllMenuGroup">
+<summary>
+  Looks up a localized string similar to SELECT * FROM MenuGroup WHERE IsActive=@IsActive ORDER BY SerialNo.
+</summary>
+</member>
+<member name="T:ProLab.Data.My.Resources.Patient">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.CheckMobile">
+<summary>
+  Looks up a localized string similar to SELECT Mobile FROM Patients Where Mobile=@Mobile.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.DeletePatientById">
+<summary>
+  Looks up a localized string similar to DELETE FROM Patients WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.GetAllCityById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM City.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.GetAllPatientDetails">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Patients.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.GetPatientById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Patients WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.GetPatientByMobile">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Patients WHERE Mobile=@Mobile.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.GetPatientByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Patients WHERE FirstName=@FirstName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.SavePatientDetails">
+<summary>
+  Looks up a localized string similar to INSERT INTO Patients(FirstName,Lastname,Mobile,LandLine,Email,Address1,Address2,CityId,Age,Gender,DOB,Occupation,Zipcode,CountryId,StateId,CreateDate,CreateBy)  VALUES(@FirstName,@Lastname,@Mobile,@LandLine,@Email,@Address1,@Address2,@CityId,@Age,@Gender,@DOB,@Occupation,@Zipcode,@CountryId,@StateId,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.Patient.UpdatePatientDetails">
+<summary>
+  Looks up a localized string similar to UPDATE Patients SET FirstName=@FirstName,Lastname=@Lastname,Mobile=@Mobile,LandLine=@LandLine,Email=@Email,Address1=@Address1,Address2=@Address2,CityId=@CityId,Age=@Age,Gender=@Gender,DOB=@DOB,Occupation=@Occupation,Zipcode=@Zipcode,CountryId=@CountryId,StateId=@StateId , UpdateDate = @UpdateDate, UpdateBy = @UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="T:ProLab.Data.My.Resources.PatientBill">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.FindBillNumber">
+<summary>
+  Looks up a localized string similar to Select 1 From [dbo].[PatientBills] Where LTrim(RTrim(BillNo)) = @BillNo.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.GetAllPatientBills">
+<summary>
+  Looks up a localized string similar to SELECT a.Id,a.BillNo,a.PatientId,a.PaymentDateTime as InvoiceDate,a.PaymentMode,a.TotalAmount,a.Status FROM PatientBills a,Patients b where a.PatientId=b.Id AND b.FirstName=@FirstName ORDER BY a.CreateDate DESC.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.GetPatientBillById">
+<summary>
+  Looks up a localized string similar to SELECT c.Id,b.CreateDate as TransactionDate,d.Name as ServiceName,d.Amount,a.PatientTransactionId FROM PatientBillTransactions a JOIN PatientTransactions b on a.PatientTransactionId=b.Id JOIN ServiceTransactions c on a.ServiceTransactionId=c.Id JOIN Services d on c.ServiceID=d.Id WHERE a.PatientBillId=@BillId ORDER BY b.CreateDate DESC.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.GetPatientBillDetailsById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM PatientBills WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.GetPatientReceiptById">
+<summary>
+  Looks up a localized string similar to SELECT B.Id,B.PatientBillId,A.DiscountAmount,A.TotalAmount,A.InvoiceDate,A.PaymentMode,C.FirstName,C.MiddleName,C.Lastname,C.Mobile,C.Gender,C.Age,D.DepositAmount
+		,E.FirstName as DoctorFname,E.LastName as DoctorLname
+FROM PatientBills A
+JOIN PatientBillTransactions B ON B.PatientBillId=A.Id
+JOIN Patients C ON C.Id = A.PatientId
+JOIN PatientTransactions D ON D.Id = B.PatientTransactionId
+LEFT JOIN Doctors E ON E.Id=D.RefDocId	
+WHERE A.Id=@BillId AND A.PatientId=@PatientId.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.SaveBillChequeDetails">
+<summary>
+  Looks up a localized string similar to INSERT INTO BillChequeDetails(BillId,ChequeNo,ChequeDate,IFSCCode,BankName,CreateDate,CreateBy) VALUES(@BillId,@ChequeNo,@ChequeDate,@IFSCCode,@BankName,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.SavePatientBill">
+<summary>
+  Looks up a localized string similar to insert into PatientBills(BillNo,PatientId,TotalAmount,DiscountPercentage,DiscountAmount,Status,IsCancel,PaymentMode,PaymentDateTime,InvoiceDate,CreateDate,CreateBy,Remarks) values (@BillNo,@PatientId,@TotalAmount,@DiscountPercentage,@DiscountAmount,@Status,@IsCancel,@PaymentMode,@PaymentDateTime,@InvoiceDate,@CreateDate,@CreateBy,@Remarks); SELECT SCOPE_IDENTITY();.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.SavePatientBillTransctions">
+<summary>
+  Looks up a localized string similar to INSERT INTO PatientBillTransactions(PatientBillId,PatientTransactionId,ServiceTransactionId,CreateDate,CreateBy) VALUES(@PatientBillId,@PatientTransactionId,@ServiceTransactionId,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.UpdatePatientBill">
+<summary>
+  Looks up a localized string similar to update PatientBills set BillNo=@BillNo, TotalAmount=@TotalAmount,DiscountPercentage=@DiscountPercentage, DiscountAmount=@DiscountAmount, Status=@Status,IsCancel=@IsCancel,PaymentMode=@PaymentMode, Remarks=@Remarks, UpdateDate=@UpdateDate,UpdateBy=@UpdateBy where Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientBill.UpdatePatientBillStatus">
+<summary>
+  Looks up a localized string similar to UPDATE PatientTransactions SET BillGenerated=1 WHERE Id=@PatientTransactionId.
+</summary>
+</member>
+<member name="T:ProLab.Data.My.Resources.PatientTransction">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.DeleteTransactionById">
+<summary>
+  Looks up a localized string similar to DELETE FROM PatientTransactions WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.DeleteTransactionServiceByTrasId">
+<summary>
+  Looks up a localized string similar to DELETE FROM ServiceTransactions WHERE PatientTransactionId=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.GetAllPatientTransactions">
+<summary>
+  Looks up a localized string similar to SELECT SUM(c.Amount) AS TotalAmount, a.Id, a.PatientId, a.RefDocId, a.DepositAmount, a.SampleRequired, a.SampleReceived, a.SampleNumber, a.BillGenerated, a.CreateDate, a.Remarks
+FROM PatientTransactions a
+JOIN Patients b on a.PatientId=b.Id
+JOIN ServiceTransactions c on a.Id = c.PatientTransactionId
+GROUP BY a.Id, a.PatientId, a.RefDocId, a.DepositAmount, a.SampleRequired, a.SampleReceived, a.SampleNumber, a.BillGenerated, a.CreateDate, a.Remarks
+HAVING a.PatientId = @PatientId
+ORDER BY a.CreateDate D [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.GetAllPatientUnpaidTransactions">
+<summary>
+  Looks up a localized string similar to SELECT SUM(c.Amount) AS TotalAmount, a.Id, a.PatientId, a.RefDocId, a.DepositAmount, a.SampleRequired, a.SampleReceived, a.SampleNumber, a.BillGenerated, a.CreateDate, a.Remarks
+FROM PatientTransactions a
+JOIN Patients b on a.PatientId=b.Id
+JOIN ServiceTransactions c on a.Id = c.PatientTransactionId
+GROUP BY a.Id, a.PatientId, a.RefDocId, a.DepositAmount, a.SampleRequired, a.SampleReceived, a.SampleNumber, a.BillGenerated, a.CreateDate, a.Remarks
+HAVING a.PatientId = @PatientId AND a.BillGenerated = 0
+ [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.GetBillNoForTransction">
+<summary>
+  Looks up a localized string similar to select value from Settings where Name=&apos;BillPrefix&apos;.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.GetDepositeAmountById">
+<summary>
+  Looks up a localized string similar to select DepositAmount from PatientTransactions where Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.GetPatientTransactionsById">
+<summary>
+  Looks up a localized string similar to SELECT c.Id as ServiceTransaction_Id, b.Id as ServiceTransaction_ServiceId,a.CategoryName as ServiceTransaction_SCategory,b.Name as ServiceTransaction_SName,b.Amount as ServiceTransaction_SAmount,C.PatientTransactionId AS Service_PatientTransactionId FROM ServiceCategory a,Services b,ServiceTransactions c where c.PatientTransactionId=@TransactionsId AND A.Id=B.CategoryId AND B.Id=C.ServiceID.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.GetPatientTransctionForBill">
+<summary>
+  Looks up a localized string similar to select  b.Id,b.CreateDate as TransactionDate,c.Name as ServiceName,b.Amount,b.PatientTransactionId from PatientTransactions a join ServiceTransactions b on a.Id=b.PatientTransactionId join Services c on c.Id=b.ServiceID where a.BillGenerated=0 and a.Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.GetTransactionDetailsById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM PatientTransactions WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.SavePatientServices">
+<summary>
+  Looks up a localized string similar to INSERT INTO ServiceTransactions(ServiceID, Amount, PatientTransactionId, CreateDate, CreateBy) VALUES(@ServiceID, @Amount, @PatientTransactionId, @CreateDate,@CreateBy); SELECT SCOPE_IDENTITY();.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.SavePatientTBillTransctions">
+<summary>
+  Looks up a localized string similar to INSERT INTO PatientBillTransactions(PatientBillId,PatientTransactionId,ServiceTransactionId,CreateDate,CreateBy) VALUES(@PatientBillId,@PatientTransactionId,@ServiceTransactionId,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.SavePatientTransction">
+<summary>
+  Looks up a localized string similar to INSERT INTO PatientTransactions(DepositAmount, SampleRequired, SampleReceived, SampleNumber,BillGenerated,RefDocId, PatientId,CreateDate, CreateBy,Remarks) VALUES(@DepositAmount,@SampleRequired, @SampleReceived, @SampleNumber,@BillGenerated, @RefDocId, @PatientId, @CreateDate, @CreateBy,@Remarks) ; SELECT SCOPE_IDENTITY();.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.SavePatientTransctionBill">
+<summary>
+  Looks up a localized string similar to insert into PatientBills(BillNo,PatientId,PatientTransactionId,TotalAmount,DiscountPercentage,DiscountAmount,Status,IsCancel,PaymentMode,PaymentDateTime,CreateDate,CreateBy,Remarks) values (@BillNo,@PatientId,@PatientTransactionId,@TotalAmount,@DiscountPercentage,@DiscountAmount,@Status,@IsCancel,@PaymentMode,@PaymentDateTime,@CreateDate,@CreateBy,@Remarks); SELECT SCOPE_IDENTITY();.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.UpdateBillNoForTransction">
+<summary>
+  Looks up a localized string similar to update Settings set Value=@Value where Name=&apos;BillPrefix&apos;.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.UpdatePatientServices">
+<summary>
+  Looks up a localized string similar to UPDATE ServiceTransactions SET ServiceID=@ServiceID, Amount=@Amount, PatientTransactionId=@PatientTransactionId, UpdateDate=@UpdateDate, UpdateBy=@UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.PatientTransction.UpdatePatientTransaction">
+<summary>
+  Looks up a localized string similar to UPDATE PatientTransactions SET DepositAmount=@DepositAmount, SampleRequired=@SampleRequired , SampleReceived=@SampleReceived, SampleNumber=@SampleNumber, BillGenerated=@BillGenerated, RefDocId=@RefDocId,PatientId=@PatientId, UpdateDate=@UpdateDate, UpdateBy=@UpdateBy , Remarks=@Remarks WHERE Id=@Id  ; SELECT SCOPE_IDENTITY();.
+</summary>
+</member>
+<member name="T:ProLab.Data.My.Resources.ServiceMaster">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.CheckService">
+<summary>
+  Looks up a localized string similar to select Name from Services where Name=@Name.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.CheckServiceCategory">
+<summary>
+  Looks up a localized string similar to select CategoryName from ServiceCategory where CategoryName=@CategoryName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.DeleteDoctors">
+<summary>
+  Looks up a localized string similar to DELETE FROM Doctors WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.DeleteHospital">
+<summary>
+  Looks up a localized string similar to DELETE FROM Hospitals WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.DeleteService">
+<summary>
+  Looks up a localized string similar to DELETE FROM Services WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.DeleteServiceCategoryById">
+<summary>
+  Looks up a localized string similar to DELETE FROM ServiceCategory WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetAllServiceCategory">
+<summary>
+  Looks up a localized string similar to SELECT * FROM ServiceCategory ORDER BY CategoryName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetAllServices">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Services.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetDoctorByFirstName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Doctors WHERE FirstName=@FirstName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetDoctorByFullName">
+<summary>
+  Looks up a localized string similar to SELECT a.*,b.Name as HospitalName FROM Doctors a,Hospitals b WHERE FirstName=@FirstName and LastName=@LastName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetDoctorDetailsForTransction">
+<summary>
+  Looks up a localized string similar to select a.*,b.Name + &apos; ( &apos; + c.CityName + &apos; ) &apos; as HospitalName from Doctors a,Hospitals b,City c where a.HospitalId=b.Id and a.Id=@Id and b.CityId=c.Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetDoctrosById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Doctors WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetHospitalById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Hospitals WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetHospitalByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Hospitals WHERE Name=@Name.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetHospitalForDoctor">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Hospitals  ORDER BY Name.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetHospitalWithCity">
+<summary>
+  Looks up a localized string similar to SELECT a.Id,a.Name + &apos; (&apos; +b.CityName +&apos;) &apos; as Name  FROM Hospitals a,City b WHERE a.CityId=b.Id ORDER BY a.Name, b.CityName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetServiceById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Services WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetServiceByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM Services WHERE Name=@Name.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetServiceCategory">
+<summary>
+  Looks up a localized string similar to SELECT * FROM ServiceCategory Order By CategoryName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetServiceCategoryById">
+<summary>
+  Looks up a localized string similar to SELECT * FROM ServiceCategory WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetServiceCategoryByName">
+<summary>
+  Looks up a localized string similar to SELECT * FROM ServiceCategory WHERE CategoryName=@CategoryName.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.GetServiceDetailsForTransction">
+<summary>
+  Looks up a localized string similar to select  a.*,b.CategoryName from Services a,ServiceCategory b  where a.Id=@Id and a.Name=@Name and a.CategoryId=b.Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.SaveDoctors">
+<summary>
+  Looks up a localized string similar to INSERT INTO Doctors(FirstName,LastName,HospitalId,CreateDate,CreateBy) VALUES(@FirstName,@LastName,@HospitalId,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.SaveHospital">
+<summary>
+  Looks up a localized string similar to INSERT INTO Hospitals(Name,Address1,Address2,Phone1,Phone2,CityId,CountryId,StateId,CreateDate,CreateBy) VALUES(@Name,@Address1,@Address2,@Phone1,@Phone2,@CityId,@CountryId,@StateId,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.SaveService">
+<summary>
+  Looks up a localized string similar to INSERT INTO Services(CategoryId,Name,Amount,Description,AppoinmentNeeded,IsActive,CreateDate,CreateBy) VALUES(@CategoryId,@Name,@Amount,@Description,@AppoinmentNeeded,@IsActive,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.SaveServiceCategory">
+<summary>
+  Looks up a localized string similar to INSERT INTO ServiceCategory(CategoryName,Description,CreateDate,CreateBy) VALUES(@CategoryName,@Description,@CreateDate,@CreateBy).
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.UpdateDoctors">
+<summary>
+  Looks up a localized string similar to UPDATE Doctors SET FirstName=@FirstName, LastName = @LastName, HospitalId=@HospitalId , UpdateDate = @UpdateDate, UpdateBy = @UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.UpdateHospital">
+<summary>
+  Looks up a localized string similar to UPDATE Hospitals SET Name=@Name,Address1=@Address1,Address2=@Address2 ,Phone1=@Phone1, Phone2 = @Phone2, CityId=@CityId ,CountryId=@CountryId, StateId=@StateId , UpdateDate = @UpdateDate, UpdateBy = @UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.UpdateService">
+<summary>
+  Looks up a localized string similar to UPDATE Services SET CategoryId=@CategoryId,Name=@Name,Description=@Description,AppoinmentNeeded=@AppoinmentNeeded,IsActive=@IsActive , UpdateDate = @UpdateDate, UpdateBy = @UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="P:ProLab.Data.My.Resources.ServiceMaster.UpdateServiceCategory">
+<summary>
+  Looks up a localized string similar to UPDATE ServiceCategory SET CategoryName=@CategoryName, Description=@Description, UpdateDate = @UpdateDate, UpdateBy = @UpdateBy WHERE Id=@Id.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.MenuGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.MenuMasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.DropDownDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.CountryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.StateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.CityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.ServiceCategoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.DoctorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.HospitalsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.ServicesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientTransactionsUtilityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientServiceTransactionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillUtilityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillMasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.MenuGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.MenuMasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.DropDownDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.CountryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.StateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.CityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.ServiceCategoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.DoctorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.HospitalsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.ServicesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientTransactionsUtilityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientServiceTransactionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillUtilityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillMasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.MenuGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.MenuMasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.DropDownDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.CountryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.StateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.CityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.ServiceCategoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.DoctorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.HospitalsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.ServicesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientTransactionsUtilityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientServiceTransactionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillUtilityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProLab.Data.ProLabDB.PatientBillMasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

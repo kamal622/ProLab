@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TestReportListDataSet" targetNamespace="http://tempuri.org/TestReportListDataSet.xsd" xmlns:mstns="http://tempuri.org/TestReportListDataSet.xsd" xmlns="http://tempuri.org/TestReportListDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TestReportListDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TestReportListDataSet" msprop:Generator_UserDSName="TestReportListDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TestReportList" msprop:Generator_TableClassName="TestReportListDataTable" msprop:Generator_TableVarName="tableTestReportList" msprop:Generator_RowChangedName="TestReportListRowChanged" msprop:Generator_TablePropName="TestReportList" msprop:Generator_RowDeletingName="TestReportListRowDeleting" msprop:Generator_RowChangingName="TestReportListRowChanging" msprop:Generator_RowEvHandlerName="TestReportListRowChangeEventHandler" msprop:Generator_RowDeletedName="TestReportListRowDeleted" msprop:Generator_RowClassName="TestReportListRow" msprop:Generator_UserTableName="TestReportList" msprop:Generator_RowEvArgName="TestReportListRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServiceTransactionId" msprop:Generator_ColumnVarNameInTable="columnServiceTransactionId" msprop:Generator_ColumnPropNameInRow="ServiceTransactionId" msprop:Generator_ColumnPropNameInTable="ServiceTransactionIdColumn" msprop:Generator_UserColumnName="ServiceTransactionId" type="xs:long" minOccurs="0" />
+              <xs:element name="CategoryName" msprop:Generator_ColumnVarNameInTable="columnCategoryName" msprop:Generator_ColumnPropNameInRow="CategoryName" msprop:Generator_ColumnPropNameInTable="CategoryNameColumn" msprop:Generator_UserColumnName="CategoryName" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceName" msprop:Generator_ColumnVarNameInTable="columnServiceName" msprop:Generator_ColumnPropNameInRow="ServiceName" msprop:Generator_ColumnPropNameInTable="ServiceNameColumn" msprop:Generator_UserColumnName="ServiceName" type="xs:string" minOccurs="0" />
+              <xs:element name="SampleNumber" msprop:Generator_ColumnVarNameInTable="columnSampleNumber" msprop:Generator_ColumnPropNameInRow="SampleNumber" msprop:Generator_ColumnPropNameInTable="SampleNumberColumn" msprop:Generator_UserColumnName="SampleNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientName" msprop:Generator_ColumnVarNameInTable="columnPatientName" msprop:Generator_ColumnPropNameInRow="PatientName" msprop:Generator_ColumnPropNameInTable="PatientNameColumn" msprop:Generator_UserColumnName="PatientName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
